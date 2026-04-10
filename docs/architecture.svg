@@ -1,0 +1,52 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="620" rx="32" fill="#F5EFE5"/>
+  <rect x="52" y="58" width="1096" height="504" rx="28" fill="#FFFDF8" stroke="#D7CCBC" stroke-width="2"/>
+  <text x="70" y="108" fill="#18314D" font-family="Arial, sans-serif" font-size="30" font-weight="700">PulseScope - Arquitetura do MVP</text>
+  <text x="70" y="142" fill="#55657A" font-family="Arial, sans-serif" font-size="18">Frontend em Next.js consumindo a API principal em Spring Boot, que integra APIs externas e persistencia local.</text>
+
+  <rect x="88" y="214" width="240" height="122" rx="22" fill="#18314D"/>
+  <text x="112" y="252" fill="#FFF8EF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Usuario</text>
+  <text x="112" y="286" fill="#D8E0EA" font-family="Arial, sans-serif" font-size="18">Interage com o dashboard</text>
+  <text x="112" y="312" fill="#D8E0EA" font-family="Arial, sans-serif" font-size="18">via navegador</text>
+
+  <rect x="392" y="170" width="300" height="160" rx="26" fill="#FFFFFF" stroke="#18314D" stroke-width="3"/>
+  <text x="420" y="212" fill="#18314D" font-family="Arial, sans-serif" font-size="26" font-weight="700">Frontend Dashboard</text>
+  <text x="420" y="244" fill="#55657A" font-family="Arial, sans-serif" font-size="18">Next.js + App Router</text>
+  <text x="420" y="274" fill="#55657A" font-family="Arial, sans-serif" font-size="18">GET / POST / PATCH / DELETE</text>
+  <text x="420" y="304" fill="#55657A" font-family="Arial, sans-serif" font-size="18">Busca, alertas, historico, cotacao</text>
+
+  <rect x="392" y="376" width="300" height="160" rx="26" fill="#18314D"/>
+  <text x="420" y="418" fill="#FFF8EF" font-family="Arial, sans-serif" font-size="26" font-weight="700">API Principal</text>
+  <text x="420" y="450" fill="#D8E0EA" font-family="Arial, sans-serif" font-size="18">Spring Boot + Swagger</text>
+  <text x="420" y="480" fill="#D8E0EA" font-family="Arial, sans-serif" font-size="18">Orquestra buscas e alertas</text>
+  <text x="420" y="510" fill="#D8E0EA" font-family="Arial, sans-serif" font-size="18">Persistencia em banco relacional</text>
+
+  <rect x="790" y="118" width="270" height="124" rx="24" fill="#FFFFFF" stroke="#B45C43" stroke-width="3"/>
+  <text x="818" y="158" fill="#B45C43" font-family="Arial, sans-serif" font-size="24" font-weight="700">GNews API</text>
+  <text x="818" y="188" fill="#6D584E" font-family="Arial, sans-serif" font-size="18">Noticias e mencoes publicas</text>
+  <text x="818" y="214" fill="#6D584E" font-family="Arial, sans-serif" font-size="18">Rota usada: /search</text>
+
+  <rect x="790" y="276" width="270" height="124" rx="24" fill="#FFFFFF" stroke="#2A7F7B" stroke-width="3"/>
+  <text x="818" y="316" fill="#2A7F7B" font-family="Arial, sans-serif" font-size="24" font-weight="700">Alpha Vantage</text>
+  <text x="818" y="346" fill="#586671" font-family="Arial, sans-serif" font-size="18">Cotacao e dados de mercado</text>
+  <text x="818" y="372" fill="#586671" font-family="Arial, sans-serif" font-size="18">Rota usada: GLOBAL_QUOTE</text>
+
+  <rect x="790" y="434" width="270" height="102" rx="24" fill="#FFFFFF" stroke="#83611E" stroke-width="3"/>
+  <text x="818" y="472" fill="#83611E" font-family="Arial, sans-serif" font-size="24" font-weight="700">Banco de Dados</text>
+  <text x="818" y="500" fill="#6D584E" font-family="Arial, sans-serif" font-size="18">PostgreSQL ou H2 no perfil dev</text>
+
+  <path d="M328 274H372" stroke="#18314D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M356 258L372 274L356 290" stroke="#18314D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M542 330V360" stroke="#18314D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M526 344L542 360L558 344" stroke="#18314D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M692 214H744" stroke="#18314D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M728 198L744 214L728 230" stroke="#18314D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M692 446H744V338H770" stroke="#18314D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M754 322L770 338L754 354" stroke="#18314D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M692 456H770" stroke="#18314D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M754 440L770 456L754 472" stroke="#18314D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
