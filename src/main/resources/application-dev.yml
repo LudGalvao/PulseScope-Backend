@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:pulsescope-dev;MODE=PostgreSQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+integration:
+  external-api:
+    api-key: 4d50cd51a7aa788a522b985077f62d70
+  alpha-vantage:
+    api-key: FJDYXVSV53ZGQJ8K
